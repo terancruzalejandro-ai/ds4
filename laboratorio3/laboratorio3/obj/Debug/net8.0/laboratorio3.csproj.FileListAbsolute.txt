@@ -1,0 +1,15 @@
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\bin\Debug\net8.0\laboratorio3.exe
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\bin\Debug\net8.0\laboratorio3.deps.json
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\bin\Debug\net8.0\laboratorio3.runtimeconfig.json
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\bin\Debug\net8.0\laboratorio3.dll
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\bin\Debug\net8.0\laboratorio3.pdb
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\obj\Debug\net8.0\laboratorio3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\obj\Debug\net8.0\laboratorio3.AssemblyInfoInputs.cache
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\obj\Debug\net8.0\laboratorio3.AssemblyInfo.cs
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\obj\Debug\net8.0\laboratorio3.csproj.CoreCompileInputs.cache
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\obj\Debug\net8.0\laboratorio3.sourcelink.json
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\obj\Debug\net8.0\laboratorio3.dll
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\obj\Debug\net8.0\refint\laboratorio3.dll
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\obj\Debug\net8.0\laboratorio3.pdb
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\obj\Debug\net8.0\laboratorio3.genruntimeconfig.cache
+C:\Users\Ricky\Source\Repos\ds4\laboratorio3\laboratorio3\obj\Debug\net8.0\ref\laboratorio3.dll
