@@ -88,7 +88,42 @@ namespace Proyecto_Calculadora
                 // Reemplaza simbolos
                 expr = expr.Replace("÷", "/").Replace("x", "*");
 
-                // Calcular raiz cuadrada si la hay
+                // Calcular potencia
+                while (expr.Contains("^"))
+                {
+                    int powIndex = expr.IndexOf("^");
+
+                    // Encontrar el número a la izquierda del ^
+                    int leftStart = powIndex - 1;
+                    while (leftStart >= 0 && (char.IsDigit(expr[leftStart]) || expr[leftStart] == '.' || expr[leftStart] == ')'))
+                    {
+                        if (expr[leftStart] == '(' && leftStart < powIndex - 1) break;
+                        leftStart--;
+                    }
+                    leftStart = Math.Max(0, leftStart + 1);
+
+                    string leftStr = expr.Substring(leftStart, powIndex - leftStart).Replace("(", "");
+
+                    // Encontrar el número a la derecha del ^
+                    int rightStart = powIndex + 1;
+                    int rightEnd = rightStart;
+                    while (rightEnd < expr.Length && (char.IsDigit(expr[rightEnd]) || expr[rightEnd] == '.' || expr[rightEnd] == '(' || expr[rightEnd] == ')'))
+                    {
+                        if (expr[rightEnd] == ')' && rightEnd > rightStart) break;
+                        rightEnd++;
+                    }
+
+                    string rightStr = expr.Substring(rightStart, rightEnd - rightStart).Replace(")", "");
+
+                    // Calcular la potencia
+                    double baseNum = Convert.ToDouble(leftStr);
+                    double exponent = Convert.ToDouble(rightStr);
+                    double powResult = Math.Pow(baseNum, exponent);
+
+                    expr = expr.Substring(0, leftStart) + powResult.ToString() + expr.Substring(rightEnd);
+                }
+
+                // Calcular raiz cuadrada 
                 while (expr.Contains("√"))
                 {
                     int sqrtIndex = expr.IndexOf("√");
