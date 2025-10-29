@@ -1,0 +1,13 @@
+CREATE DATABASE CalculadoraDB;
+GO
+
+USE CalculadoraDB;
+GO
+
+CREATE TABLE Historial (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Expresion NVARCHAR(255),
+    Resultado NVARCHAR(50),
+    Fecha DATETIME DEFAULT GETDATE()
+);
+GO

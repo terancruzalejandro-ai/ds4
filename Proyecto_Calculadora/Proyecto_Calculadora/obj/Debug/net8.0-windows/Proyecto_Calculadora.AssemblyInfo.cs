@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proyecto_Calculadora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+487453cc587be5bf815603639c0f5371dfdb2050")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3e5c42195cff1f8673659eff8c9a1a0a59e747d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proyecto_Calculadora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proyecto_Calculadora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using System.Data.SqlClient;
 
 namespace Proyecto_Calculadora
 {
@@ -6,6 +7,8 @@ namespace Proyecto_Calculadora
     {
 
         string expression = "";
+        string connectionString = @"Server=localhost;Database=CalculadoraDB;Trusted_Connection=True;";
+
         public Form1()
 
         {
@@ -31,7 +34,7 @@ namespace Proyecto_Calculadora
         private void button4_Click(object sender, EventArgs e)
         {
 
-            expression += "4";
+            expression += "3";
             textBoxResultado.Text = expression;
 
         }
@@ -82,17 +85,16 @@ namespace Proyecto_Calculadora
             {
                 string expr = expression;
 
-                
+                // Reemplaza simbolos
                 expr = expr.Replace("÷", "/").Replace("x", "*");
 
-                
+                // Calcular raiz cuadrada si la hay
                 while (expr.Contains("√"))
                 {
                     int sqrtIndex = expr.IndexOf("√");
-                    int start = sqrtIndex + 2; // Contar despues de "√("
+                    int start = sqrtIndex + 2;
                     int end = start;
 
-                    
                     while (end < expr.Length && (char.IsDigit(expr[end]) || expr[end] == '.' || expr[end] == '(' || expr[end] == ')'))
                     {
                         if (expr[end] == ')' && end > start) break;
@@ -101,22 +103,33 @@ namespace Proyecto_Calculadora
 
                     string inside = expr.Substring(start, end - start).Replace(")", "");
                     double sqrtResult = Math.Sqrt(Convert.ToDouble(inside));
-
-                    
                     expr = expr.Substring(0, sqrtIndex) + sqrtResult.ToString() + expr.Substring(end);
                 }
 
+                // Evalua la expresion
                 var result = new DataTable().Compute(expr, null);
                 textBoxResultado.Text = result.ToString();
                 expression = result.ToString();
+
+                // Guarda en base de datos
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string query = "INSERT INTO Historial (Expresion, Resultado) VALUES (@expr, @res)";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@expr", expr);
+                    cmd.Parameters.AddWithValue("@res", result.ToString());
+                    cmd.ExecuteNonQuery();
+                }
             }
-            catch
+            catch (Exception ex)
             {
                 textBoxResultado.Text = "Error";
                 expression = "";
+                MessageBox.Show("Error al calcular o guardar: " + ex.Message);
             }
         }
-        
+
 
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -222,7 +235,33 @@ namespace Proyecto_Calculadora
             textBoxResultado.Text = expression;
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                string query = "SELECT * FROM Historial ORDER BY Id DESC";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                if (!reader.HasRows)
+                {
+                    MessageBox.Show("No hay registros en el historial aún.", "Historial vacío", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+
+                string historial = "HISTORIAL DE OPERACIONES:\n\n";
+                while (reader.Read())
+                {
+                    historial += $"{reader["Fecha"]}: {reader["Expresion"]} = {reader["Resultado"]}\n";
+                }
+
+                reader.Close();
+                MessageBox.Show(historial, "Historial de la Calculadora", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
-}
+    }
 
 
