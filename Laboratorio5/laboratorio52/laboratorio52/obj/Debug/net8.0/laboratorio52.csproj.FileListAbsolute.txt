@@ -1,0 +1,15 @@
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\bin\Debug\net8.0\laboratorio52.exe
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\bin\Debug\net8.0\laboratorio52.deps.json
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\bin\Debug\net8.0\laboratorio52.runtimeconfig.json
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\bin\Debug\net8.0\laboratorio52.dll
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\bin\Debug\net8.0\laboratorio52.pdb
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\obj\Debug\net8.0\laboratorio52.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\obj\Debug\net8.0\laboratorio52.AssemblyInfoInputs.cache
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\obj\Debug\net8.0\laboratorio52.AssemblyInfo.cs
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\obj\Debug\net8.0\laboratorio52.csproj.CoreCompileInputs.cache
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\obj\Debug\net8.0\laboratorio52.sourcelink.json
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\obj\Debug\net8.0\laboratorio52.dll
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\obj\Debug\net8.0\refint\laboratorio52.dll
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\obj\Debug\net8.0\laboratorio52.pdb
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\obj\Debug\net8.0\laboratorio52.genruntimeconfig.cache
+C:\Users\Ricky\Source\Repos\ds4\Laboratorio5\laboratorio52\laboratorio52\obj\Debug\net8.0\ref\laboratorio52.dll

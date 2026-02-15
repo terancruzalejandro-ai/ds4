@@ -1,0 +1,15 @@
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\obj\Debug\net8.0\laboratorio41.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\obj\Debug\net8.0\laboratorio41.AssemblyInfoInputs.cache
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\obj\Debug\net8.0\laboratorio41.AssemblyInfo.cs
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\obj\Debug\net8.0\laboratorio41.csproj.CoreCompileInputs.cache
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\obj\Debug\net8.0\laboratorio41.sourcelink.json
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\bin\Debug\net8.0\laboratorio41.exe
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\bin\Debug\net8.0\laboratorio41.deps.json
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\bin\Debug\net8.0\laboratorio41.runtimeconfig.json
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\bin\Debug\net8.0\laboratorio41.dll
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\bin\Debug\net8.0\laboratorio41.pdb
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\obj\Debug\net8.0\laboratorio41.dll
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\obj\Debug\net8.0\refint\laboratorio41.dll
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\obj\Debug\net8.0\laboratorio41.pdb
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\obj\Debug\net8.0\laboratorio41.genruntimeconfig.cache
+C:\Users\Ricky\Source\Repos\ds4\laboratorio4\laboratorio41\obj\Debug\net8.0\ref\laboratorio41.dll

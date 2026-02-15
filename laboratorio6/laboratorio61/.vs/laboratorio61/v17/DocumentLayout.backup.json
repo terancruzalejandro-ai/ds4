@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ricky\\Source\\Repos\\ds4\\laboratorio6\\laboratorio61\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12F20540-BDCE-40D6-92E8-8ED16A64DFA3}|laboratorio61\\laboratorio61.csproj|c:\\users\\ricky\\source\\repos\\ds4\\laboratorio6\\laboratorio61\\laboratorio61\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F20540-BDCE-40D6-92E8-8ED16A64DFA3}|laboratorio61\\laboratorio61.csproj|solutionrelative:laboratorio61\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ricky\\Source\\Repos\\ds4\\laboratorio6\\laboratorio61\\laboratorio61\\Program.cs",
+              "RelativeDocumentMoniker": "laboratorio61\\Program.cs",
+              "ToolTip": "C:\\Users\\Ricky\\Source\\Repos\\ds4\\laboratorio6\\laboratorio61\\laboratorio61\\Program.cs",
+              "RelativeToolTip": "laboratorio61\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T01:04:15.372Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
